@@ -19,12 +19,6 @@ def sec_num():
 def numbers():
     first_num()
     sec_num()
-"""    while (asking := str(input(f"Are {num_1} and {num_2} the numbers you want to work with? "))) not in ANSWER_YN:
-        pass
-    if asking == 'no' or 'n':
-        print()
-    while (answer := str(input("Addition, multiplication, or subtraction? "))) not in AVAILABLE_ANSWERS:
-        pass """
 
 def calculate():
     input0 = input("Addition, multiplication, or subtraction? ")
